@@ -11,6 +11,9 @@ go get -u github.com/lib/pq
 ## Folder Structure
 
 ```
++-- App
+|   +-- database.go
+|   +-- router.go
 +-- Controllers
 |   +--- category_controller.go
 +-- Helper
@@ -30,6 +33,7 @@ go get -u github.com/lib/pq
 |   +--- category_service.go
 |   go.mod
 |   go.sum
+|   main.go
 |   README.md 
 ```
 
